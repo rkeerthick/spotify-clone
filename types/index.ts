@@ -29,3 +29,7 @@ export interface ListItemProps {
 }
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>{};
+
+export interface SupabaseProps {
+    children: React.ReactNode;
+}
