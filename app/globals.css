@@ -7,4 +7,6 @@ html,
 :root {
   color: white;
   background-color: black;
+  height: 100vh;
+  width: 100%;
 }
