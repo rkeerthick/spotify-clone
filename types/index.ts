@@ -125,7 +125,7 @@ export interface PageContentProps {
 }
 
 export interface SongItemProps {
-  onClick?: (id: string) => void;
+  onClick: (id: string) => void;
   song: Song;
 }
 
