@@ -3,7 +3,12 @@ import Link from "next/link";
 import React from "react";
 import { twMerge } from "tailwind-merge";
 
-const SidebarItem: React.FC<SidebarItem> = ({ href, icon: Icon, label, active }) => {
+const SidebarItem: React.FC<SidebarItem> = ({
+  href,
+  icon: Icon,
+  label,
+  active,
+}) => {
   return (
     <Link
       href={href}
