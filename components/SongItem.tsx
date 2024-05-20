@@ -9,6 +9,8 @@ import PlayButton from "./PlayButton";
 
 const SongItem: React.FC<SongItemProps> = ({ onClick, song }) => {
   const imagePath = useLoadImage(song);
+  if (!song || !onClick) return null;
+
   return (
     <div
       onClick={() => onClick(song.id)}
