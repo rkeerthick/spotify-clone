@@ -12,7 +12,7 @@ export interface BoxProps {
   className?: string;
 }
 
-export interface SidebarItem {
+export interface SidebarItemProps {
   icon: IconType;
   label: string;
   href: string;
